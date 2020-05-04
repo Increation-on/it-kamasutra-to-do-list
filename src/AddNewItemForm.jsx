@@ -6,6 +6,7 @@ class AddNewItemForm extends React.Component {
 
     }
     onAddItemClick = () => {
+        debugger;
         let newText = this.state.title;
         if (!newText) {
             this.setState({ error: true })
